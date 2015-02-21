@@ -63,6 +63,7 @@
         </section>
         <section>
             <h2>Datenmodell</h2>
+            FEHLER: Räume sind nicht mit Serien, sondern mit Terminen verbunden.
             <img src="img/Datenmodell.svg">
             <!--
             <table>
@@ -114,7 +115,7 @@
         <section>
             <h2>Backend - Technologien</h2>
             <ul>
-                <li class="fragment"><img src="img/Spring_Logo.png"</li>
+                <li class="fragment"><img src="img/Spring_logo.png"</li>
                 <li class="fragment"><img src="img/Hibernate.png"</li>
             </ul>
         </section>
@@ -137,7 +138,25 @@
             </table>
         </section>
         <section>
-            <h2>Backend - Controller</h2>
+            <h2>Backend - Persistence Layer</h2>
+            <ul>
+                <li class="fragment"></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Backend - Data Access Object Layer</h2>
+            <ul>
+                <li class="fragment"></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Backend - Service Layer</h2>
+            <ul>
+                <li class="fragment"></li>
+            </ul>
+        </section>
+        <section>
+            <h2>Backend - Controller Layer</h2>
             <ul>
                 <li class="fragment">verarbeitet Anfragen vom Client</li>
                 <li class="fragment">strukturelle Daten</li>
@@ -147,13 +166,41 @@
         </section>
         <section>
             <h2>Frontend - Technologien</h2>
-            <ul>
-                <li class="fragment">HTML5</li>
-                <li class="fragment">jQuery</li>
-                <li class="fragment">Bootstrap</li>
-                <li class="fragment">Snap SVG</li>
-                <li class="fragment">jQueryUI</li>
-            </ul>
+            <!--ul>
+                <li class="fragment">HTML5<img src="img/HTML5-logo.svg"></li>
+                <li class="fragment">jQuery<img src="img/jQuery-logo.svg"></li>
+                <li class="fragment">Bootstrap<img src="img/Boostrap-logo.svg"></li>
+                <li class="fragment">Snap SVG<img src="img/Snap-logo.svg"></li>
+                <li class="fragment">jQueryUI<img src="img/jQuery_UI-logo.svg"></li>
+            </ul-->
+            <table>
+                <tr>
+                    <td>
+                        <div class="fragment"><img src="img/jQuery-logo.svg" height="100"></div>
+                    </td>
+                    <td>
+                        <div class="fragment"><img src="img/jQuery_UI-logo.svg" height="100"></div>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <div class="fragment">Bootstrap<img src="img/Bootstrap-logo.svg" height="100"></div>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <div class="fragment"><img src="img/HTML5-logo.svg" height="100"></div>
+                    </td>
+                    <td>
+                        <div class="fragment"><font size="20" face="Helvetica">Snap.svg</font><img src="img/Snap-logo.svg" height="100"></div>
+                    </td>
+
+                </tr>
+            </table>
         </section>
         <section>
             <h2>Frontend - Views</h2>
@@ -166,8 +213,40 @@
         </section>
         <section>
             <h2>Frontend - Architektur</h2>
+            <p>
+                <img src="img/Clientarchitektur.svg">
+            </p>
             <ul>
-                <li class="fragment">Schnittstelle zum Backend (DataCenter)</li>
+                <li class="fragment">einheitliche Schnittstelle zum Backend</li>
+                <li class="fragment">einzelne Eventhandler für Views</li>
+                <li class="fragment">asynchrone Funktionsweise</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Frontend - Planansicht</h2>
+            <ul>
+                <li class="fragment">einmaliges Laden der Gebäudedaten</li>
+                <li class="fragment">dynamisches Nachladen der Pläne(nochmal nachgucken!)</li>
+                <li class="fragment">Status(aktuelle Auswahl)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Frontend - Belegungsansicht</h2>
+            <ul>
+                <li class="fragment">abhängig von der Auswahl in der Planansicht</li>
+                <li class="fragment">Anzeige der Daten aus MVS</li>
+                <li class="fragment">Zeitstrahlartige Anzeige der Raumbelegung</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Frontend - Reservierungsansicht</h2>
+            <ul>
+                <li class="fragment">mehrere Unteransichten</li>
+                <li class="fragment">globale Übersicht der Reservierungen (Rollensystem)</li>
+                <li class="fragment">Untermenüs durch überlagernde Modals realisiert</li>
+                <li class="fragment">in Reservierungsmenü eingebettete Planansicht</li>
+                <li class="fragment">Anzeige konkurrierender Veranstaltungen</li>
+                <li class="fragment">farbliche Codierung von Konflikthäufigkeiten</li>
             </ul>
         </section>
         <!-- Endfolie -->

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 70.846483 99.999998"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   width="100%"
+   height="100%"
+   sodipodi:docname="HTML5-logo.svg">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs28" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1461"
+     inkscape:window-height="952"
+     id="namedview26"
+     showgrid="false"
+     inkscape:zoom="2.6074563"
+     inkscape:cx="142.90175"
+     inkscape:cy="-14.784153"
+     inkscape:window-x="103"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <title
+     id="title4">HTML5 Logo</title>
+  <polygon
+     points="74.633,100.62 437.367,100.62 404.321,470.819 255.778,512 107.644,470.877 "
+     id="polygon6"
+     style="fill:#e44d26"
+     transform="matrix(0.1953125,0,0,0.1953125,-14.57676,0)" />
+  <polygon
+     points="256,130.894 256,480.523 376.03,447.246 404.27,130.894 "
+     id="polygon8"
+     style="fill:#f16529"
+     transform="matrix(0.1953125,0,0,0.1953125,-14.57676,0)" />
+  <polygon
+     points="195.91,268.217 191.76,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305 143.219,188.488 154.38,313.627 256,313.627 256,268.217 "
+     id="polygon10"
+     style="fill:#ebebeb"
+     transform="matrix(0.1953125,0,0,0.1953125,-14.57676,0)" />
+  <polygon
+     points="205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634 255.791,433.457 256,433.399 256,386.153 255.801,386.206 "
+     id="polygon12"
+     style="fill:#ebebeb"
+     transform="matrix(0.1953125,0,0,0.1953125,-14.57676,0)" />
+  <path
+     d="m 6.5915997,0 h 4.5072263 v 4.4531196 h 4.123047 V 0 h 4.507422 V 13.48515 H 15.222069 V 8.9695299 H 11.099022 V 13.48515 H 6.5917947 V 0 z"
+     id="path14"
+     inkscape:connector-curvature="0" />
+  <path
+     d="M 25.656443,4.4718696 H 21.688474 V 0 H 34.133787 V 4.4718696 H 30.16406 V 13.48515 H 25.656638 V 4.4718696 z"
+     id="path16"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 36.108982,0 h 4.699805 L 43.699803,4.7382796 46.587889,0 h 4.701562 V 13.48515 H 46.800779 V 6.8011696 L 43.699803,11.59589 h -0.07754 L 40.519138,6.8011696 V 13.48515 H 36.108981 V 0 z"
+     id="path18"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 53.532615,0 h 4.508594 v 9.0277299 h 6.338477 V 13.48515 H 53.532615 V 0 z"
+     id="path20"
+     inkscape:connector-curvature="0" />
+  <polygon
+     points="255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217 349.162,268.217 "
+     id="polygon22"
+     style="fill:#ffffff"
+     transform="matrix(0.1953125,0,0,0.1953125,-14.57676,0)" />
+  <polygon
+     points="255.843,204.509 255.843,221.605 255.843,221.716 365.385,221.716 365.385,221.716 365.531,221.716 366.442,211.509 368.511,188.488 369.597,176.305 255.843,176.305 "
+     id="polygon24"
+     style="fill:#ffffff"
+     transform="matrix(0.1953125,0,0,0.1953125,-14.57676,0)" />
+</svg>
