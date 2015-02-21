@@ -33,7 +33,7 @@
                 <li class="fragment">Umsetzungsideen</li>
                 <li class="fragment">Datenmodell</li>
                 <li class="fragment">Backend</li>
-                <li class="fragment">Controller</li>
+                <li class="fragment">Schnittstelle</li>
                 <li class="fragment">Frontend</li>
             </ol>
         </section>
@@ -41,6 +41,8 @@
             <h2>Motivation</h2>
             <ul>
                 <li class="fragment">Probleme mit Evento</li>
+                <li class="fragment">Keine vielversprechende, offene und schlanke Lösung existent</li>
+                <li class="fragment">Integration mit der Verwaltungsinfrastruktur</li>
             </ul>
         </section>
         <section>
@@ -49,6 +51,14 @@
                 <li class="fragment">Benutzbarkeit/Usability</li>
                 <li class="fragment">Browserbasiertes UI</li>
                 <li class="fragment">neuere Technologien</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Kernkomponenten</h2>
+            <ul>
+                <li class="fragment">Verwaltung von Rauminformationen</li>
+                <li class="fragment">Erstellung von Raumbuchungen/Terminen</li>
+                <li class="fragment">Garantie der Überschneidungsfreiheit von Terminen</li>
             </ul>
         </section>
         <section>
@@ -86,26 +96,78 @@
         </section>
         <section>
             <h2>Architektur</h2>
+            <table>
+                <tr>
+                    <td>
+                        <img src="img/Architrichter.svg">
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="fragment">Schnittstelle Controller/DataCenter</li>
+                            <li class="fragment">Single-Page Anwendung</li>
+                            <li class="fragment">Kommunikation über AJAX</li>
+                        </ul>                   
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Backend - Technologien</h2>
             <ul>
-                <li class="fragment"></li>
+                <li class="fragment"><img src="img/Spring_Logo.png"</li>
+                <li class="fragment"><img src="img/Hibernate.png"</li>
             </ul>
         </section>
         <section>
-            <h2>Backend</h2>
+            <h2>Backend - Architektur</h2>
+            <table>
+                <tr>
+                    <td>
+                        <img src="img/Serverarchitektur.svg">
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="fragment">Persistence Layer</li>
+                            <li class="fragment">Data Access Object Layer</li>
+                            <li class="fragment">Service Layer</li>
+                            <li class="fragment">Controller Layer</li>
+                        </ul>                   
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h2>Backend - Controller</h2>
             <ul>
-                <li class="fragment"></li>
+                <li class="fragment">verarbeitet Anfragen vom Client</li>
+                <li class="fragment">strukturelle Daten</li>
+                <li class="fragment">dynamische Termindaten</li>
+                <li class="fragment">CRUD für Termindaten</li>
             </ul>
         </section>
         <section>
-            <h2>Controller</h2>
+            <h2>Frontend - Technologien</h2>
             <ul>
-                <li class="fragment"></li>
+                <li class="fragment">HTML5</li>
+                <li class="fragment">jQuery</li>
+                <li class="fragment">Bootstrap</li>
+                <li class="fragment">Snap SVG</li>
+                <li class="fragment">jQueryUI</li>
             </ul>
         </section>
         <section>
-            <h2>Frontend</h2>
+            <h2>Frontend - Views</h2>
             <ul>
-                <li class="fragment"></li>
+                <li class="fragment">Raumpläne</li>
+                <li class="fragment">Belegungsübersicht</li>
+                <li class="fragment">Liste der Reservierungen</li>
+                <li class="fragment">Buchen, Modifizieren und Löschen von Buchungen</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Frontend - Architektur</h2>
+            <ul>
+                <li class="fragment">Schnittstelle zum Backend (DataCenter)</li>
             </ul>
         </section>
         <!-- Endfolie -->
