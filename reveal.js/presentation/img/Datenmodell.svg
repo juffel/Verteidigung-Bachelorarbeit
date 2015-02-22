@@ -40,10 +40,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.2484849"
-     inkscape:cx="412.75477"
+     inkscape:cx="269.38099"
      inkscape:cy="126.14179"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -72,7 +72,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -351,9 +351,9 @@
        id="text4381"
        y="161.50867"
        x="641.9519"
-       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#464646;fill-opacity:0.39215686;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#464646;fill-opacity:0.68627453;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        xml:space="preserve"><tspan
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#464646;fill-opacity:0.39215686;font-family:Impact;-inkscape-font-specification:Impact Bold"
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#464646;fill-opacity:0.68627453;font-family:Impact;-inkscape-font-specification:Impact Bold"
          y="161.50867"
          x="641.9519"
          id="tspan4383"
@@ -367,7 +367,7 @@
        y="260.60666" />
     <text
        xml:space="preserve"
-       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#464646;fill-opacity:0.39215686;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#464646;fill-opacity:0.68627453;stroke:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
        x="606.00598"
        y="293.57526"
        id="text4387"
@@ -376,6 +376,6 @@
          id="tspan4389"
          x="606.00598"
          y="293.57526"
-         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#464646;fill-opacity:0.39215686;font-family:Impact;-inkscape-font-specification:Impact Bold">Veranstaltung</tspan></text>
+         style="font-size:24px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#464646;fill-opacity:0.68627453;font-family:Impact;-inkscape-font-specification:Impact Bold">Veranstaltung</tspan></text>
   </g>
 </svg>
