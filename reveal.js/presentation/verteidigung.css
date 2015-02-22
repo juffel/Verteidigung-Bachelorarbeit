@@ -9,7 +9,12 @@
     vertical-align: top;
 }
 
-#spring_mvc {
-    padding-left: 0;
+.reveal td.logo_text {
+    padding: 0;
     vertical-align: middle;
+}
+
+.highlight {
+    # color: #9AE951;
+    color: #268BD2;
 }

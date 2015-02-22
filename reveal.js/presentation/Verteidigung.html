@@ -20,8 +20,8 @@
         <section>
             <p><img src="img/Fub-logo.svg"></p>
             <h3>Entwicklung eines Systems zur
-                <br>Verwaltung von <font color="#268BD2">Raumreservierungen</font> und zur
-                <br>Anzeige von <font color="#268BD2">Übersichtsplänen</font></h3>
+                <br>Verwaltung von <font class="highlight">Raumreservierungen</font> und zur
+                <br>Anzeige von <font class="highlight">Übersichtsplänen</font></h3>
             <p>Julian Dobmann</p>
             <p>Betreuerin: Prof. Dr. Esponda-Argüero</p>
         </section>
@@ -30,7 +30,7 @@
             <h2>Inhalt</h2>
             <ol>
                 <li class="fragment">Motivation</li>
-                <li class="fragment">Umsetzungsideen</li>
+                <li class="fragment">Grundlegendes</li>
                 <li class="fragment">Datenmodell</li>
                 <li class="fragment">Backend</li>
                 <li class="fragment">Schnittstelle</li>
@@ -47,7 +47,7 @@
             </ul>
         </section>
         <section>
-            <h2>Umsetzungsideen</h2>
+            <h2>Umsetzungsziele</h2>
             <ul>
                 <li class="fragment">Benutzbarkeit/Usability</li>
                 <li class="fragment">Browserbasierte Benutzerschnittstelle</li>
@@ -64,37 +64,7 @@
         </section>
         <section>
             <h2>Datenmodell</h2>
-            FEHLER: Räume sind nicht mit Serien, sondern mit Terminen verbunden.
-            <img src="img/Datenmodell.svg">
-            <!--
-            <table>
-                <tr>
-                    <td>
-                        <img src="img/Datenmodell.svg">
-                        <ul>
-                            <li class="fragment">
-                            <p>strukturelle Entities</p>
-                            <ul>
-                                <li class="fragment">Raum</li>
-                                <li class="fragment">Stockwerk</li>
-                                <li class="fragment">Gebäude</li>
-                            </ul>
-                            </li>
-                        </ul>
-                    </td>
-                    <td>
-                        <li class="fragment">
-                        <p>terminspezifische Entities</p>
-                        <ul>
-                            <li class="fragment">Termin</li>
-                            <li class="fragment">Serie</li>
-                        </ul>                   
-                        </li>
-                        <li class="fragment">flache Datenstruktur</li>
-                    </td>
-                </tr>
-            </table>
-            -->
+            <img src="img/Datenmodell.svg" width="1000">
         </section>
         <section>
             <h2>Architektur</h2>
@@ -120,7 +90,7 @@
                     <td>
                         <img src="img/Spring_framework-logo.png">
                     </td>
-                    <td id="spring_mvc">
+                    <td class="logo_text">
                         <font>Web MVC</font>
                     </td>
                 </tr>
@@ -136,32 +106,19 @@
                     </td>
                     <td>
                         <ul>
-                            <li class="fragment">Persistence Layer</li>
-                            <li class="fragment">Data Access Object Layer</li>
+                            <li class="fragment">
+                                <p>Persistence Layer</p>
+                                <ul>
+                                    <li class="fragment">Data Access Object (DAO) Layer</li>
+                                    <li class="fragment">Model Objects</li>
+                                </ul>
+                            </li>
                             <li class="fragment">Service Layer</li>
                             <li class="fragment">Controller Layer</li>
                         </ul>                   
                     </td>
                 </tr>
             </table>
-        </section>
-        <section>
-            <h2>Backend - Persistence Layer</h2>
-            <ul>
-                <li class="fragment"></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Backend - Data Access Object Layer</h2>
-            <ul>
-                <li class="fragment"></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Backend - Service Layer</h2>
-            <ul>
-                <li class="fragment"></li>
-            </ul>
         </section>
         <section>
             <h2>Backend - Controller Layer</h2>
@@ -179,27 +136,32 @@
                     <td>
                         <div class="fragment"><img src="img/jQuery-logo.svg" height="100"></div>
                     </td>
-                    <td>
-                        <div class="fragment"><img src="img/jQuery_UI-logo.svg" height="100"></div>
+                    <td class="fragment">
+                        <table>
+                            <tr>
+                                <td>
+                                    <img src="img/Bootstrap-logo.svg" height="100">
+                                </td>
+                                <td class="logo_text">
+                                    <font>Bootstrap<font>
+                                </td>
+                            </tr>
+                        </table>
                     </td>
                 </tr>
             </table>
-            <table>
+            <div class="fragment"><img src="img/jQuery_UI-logo.svg" height="100"></div>
+            <table class="fragment">
                 <tr>
                     <td>
-                        <div class="fragment">Bootstrap<img src="img/Bootstrap-logo.svg" height="100"></div>
-                    </td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <td>
-                        <div class="fragment"><img src="img/HTML5-logo.svg" height="100"></div>
+                        <div><img src="img/HTML5-logo.svg" height="100"></div>
                     </td>
                     <td>
-                        <div class="fragment"><font size="20" face="Helvetica">Snap.svg</font><img src="img/Snap-logo.svg" height="100"></div>
+                        <img src="img/Snap-logo.svg" height="100"></div>
                     </td>
-
+                    <td class="logo_text">
+                        <font>Snap.svg</font>
+                    </td>
                 </tr>
             </table>
         </section>
@@ -249,6 +211,9 @@
                 <li class="fragment">Anzeige konkurrierender Veranstaltungen</li>
                 <li class="fragment">farbliche Codierung von Konflikthäufigkeiten</li>
             </ul>
+        </section>
+        <section>
+            <h2>Ausblick</h2>
         </section>
         <section>
             <h2>Danke für die Aufmerksamkeit!</h2>

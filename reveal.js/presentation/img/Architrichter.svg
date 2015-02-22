@@ -14,7 +14,7 @@
    id="svg3058"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="Architrichter.svg">
+   sodipodi:docname="Serverarchitektur.svg">
   <defs
      id="defs3060" />
   <sodipodi:namedview
@@ -24,17 +24,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.0899905"
-     inkscape:cx="188.7222"
-     inkscape:cy="45.618537"
+     inkscape:zoom="1.3722572"
+     inkscape:cx="301.61647"
+     inkscape:cy="263.19047"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="svg3058"
      showgrid="false"
-     inkscape:window-width="1558"
-     inkscape:window-height="985"
-     inkscape:window-x="21"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
+     inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -56,13 +56,13 @@
      id="layer1"
      transform="translate(-113.74359,-147.93301)">
     <path
-       transform="matrix(-1.4387038,0,0,-1.4387038,580.16357,731.34521)"
        style="fill:#ffffff;fill-opacity:1;stroke:#787878;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0"
        inkscape:transform-center-y="-42.971071"
        d="m 322.75117,41.896022 0,34.301772 -51.73273,89.603726 -51.73273,89.60372 -51.73274,-89.60373 -51.73273,-89.603712 0,-34.301776"
        id="path3957"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       transform="matrix(-1.4387038,0,0,-1.4387038,580.16357,731.34521)" />
     <path
        sodipodi:type="arc"
        style="fill:#787878;fill-opacity:1;stroke:none"
