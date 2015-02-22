@@ -8,3 +8,8 @@
 .reveal td {
     vertical-align: top;
 }
+
+#spring_mvc {
+    padding-left: 0;
+    vertical-align: middle;
+}
