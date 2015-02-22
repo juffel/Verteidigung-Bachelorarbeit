@@ -2,7 +2,7 @@
 
 * Termin: Dienstag, 24.02.15 9:00 @ Besprechungsraum T9-137
 * Audienz: Esponda + ? (Zweitkorrektor Rojas ist nicht im Lande)
-* 15 Minuten Vortrag + 15 Minuten Fragen
+* 15 Minuten Vortrag + 15 Minuten Fragen/Demo der Anwendung
 
 
 ## Ziele:
