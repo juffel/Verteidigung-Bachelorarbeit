@@ -41,8 +41,9 @@
         <section>
             <h2>Motivation</h2>
             <ul>
+                <li class="fragment">universitätsweites Lehrplanungssystem Evento</li>
                 <li class="fragment">Probleme mit Evento</li>
-                <li class="fragment">Keine gute alternative Patentlösung</li>
+                <li class="fragment">keine gute alternative Patentlösung</li>
                 <li class="fragment">Integration mit der Verwaltungsinfrastruktur</li>
             </ul>
         </section>
@@ -50,8 +51,9 @@
             <h2>Umsetzungsziele</h2>
             <ul>
                 <li class="fragment">Benutzbarkeit/Usability</li>
-                <li class="fragment">Browserbasierte Benutzerschnittstelle</li>
-                <li class="fragment">aktuelle Technologien</li>
+                <li class="fragment">browserbasierte Benutzerschnittstelle</li>
+                <li class="fragment">Java Application</li>
+                <li class="fragment">Verwendung aktueller Technologien</li>
             </ul>
         </section>
         <section>
@@ -76,9 +78,10 @@
                     </td>
                     <td>
                         <ul>
-                            <li class="fragment">Schnittstelle Controller/DataCenter</li>
+                            <li class="fragment">Aufteilung Backend/Frontend</li>
+                            <li class="fragment">Webschnittstelle Controller/DataCenter</li>
                             <li class="fragment">Single-Page Anwendung</li>
-                            <li class="fragment">Kommunikation über AJAX</li>
+                            <li class="fragment">asynchrone Kommunikation</li>
                         </ul>                   
                     </td>
                 </tr>
@@ -114,8 +117,13 @@
                                     <li class="fragment">Model Objects</li>
                                 </ul>
                             </li>
-                            <li class="fragment">Service Layer</li>
-                            <li class="fragment">Controller Layer</li>
+                            <li class="fragment">
+                                <p>Service Layer</p>
+                                <ul>
+                                    <li class="fragment">bietet Controllern Schnittstelle zur Anwendungslogik</li>
+                                    <li class="fragment">greift hierfür auf DAOs zurück</li>
+                                </ul>
+                            </li>
                         </ul>                   
                     </td>
                 </tr>
@@ -125,8 +133,11 @@
             <h2>Backend - Controller Layer</h2>
             <ul>
                 <li class="fragment">verarbeitet Anfragen vom Client</li>
-                <li class="fragment">strukturelle Daten</li>
-                <li class="fragment">dynamische Termindaten</li>
+                <li class="fragment">Aufteilung in</li>
+                <ul>
+                    <li class="fragment">strukturelle/statische Raumdatenanfragen</li>
+                    <li class="fragment">dynamische Termindatenanfragen</li>
+                </ul>
                 <li class="fragment">CRUD für Termindaten</li>
             </ul>
         </section>
