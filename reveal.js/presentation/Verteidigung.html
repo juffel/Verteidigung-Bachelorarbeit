@@ -24,6 +24,7 @@
                 <br>Anzeige von <font class="highlight">Übersichtsplänen</font></h3>
             <p>Julian Dobmann</p>
             <p>Betreuerin: Prof. Dr. Esponda-Argüero</p>
+            <h5>24.02.2015</h5>
         </section>
         <!-- Übersicht/Inhalt des Vortrags -->
         <section>
@@ -80,7 +81,6 @@
                         <ul>
                             <li class="fragment">Aufteilung Backend/Frontend</li>
                             <li class="fragment">Webschnittstelle Controller/DataCenter</li>
-                            <li class="fragment">Single-Page Anwendung</li>
                             <li class="fragment">asynchrone Kommunikation</li>
                         </ul>                   
                     </td>
@@ -192,6 +192,7 @@
                 <img class="big_pic" src="img/Clientarchitektur.svg">
             </p>
             <ul>
+                <li class="fragment">Single-Page Anwendung</li>
                 <li class="fragment">asynchrone Requests</li>
                 <li class="fragment">einzelne Eventhandler für Views</li>
                 <li class="fragment">einheitliche Schnittstelle zum Server (DataCenter)</li>
@@ -206,9 +207,9 @@
                     </td>
                     <td>
                         <ul>
-                            <li class="fragment">einmaliges Laden der Gebäudedaten</li>
-                            <li class="fragment">dynamisches Nachladen der Pläne</li>
-                            <li class="fragment">Status(aktuelle Auswahl)</li>
+                            <li class="fragment">Map Container-Objekt</li>
+                            <li class="fragment">initiales Laden aller Gebäudedaten</li>
+                            <li class="fragment">bietet Schnittstelle mit Statusabfrage</li>
                         </td>
                     </tr>
             </ul>
@@ -232,7 +233,7 @@
             </table>
         </section>
         <section>
-            <h2>Frontend - Reservierungsansicht</h2>
+            <h2>Frontend - Reservierungen</h2>
 
             <table>
                 <tr>
@@ -243,8 +244,8 @@
                         <ul>
                             <li class="fragment">mehrere Unteransichten</li>
                             <li class="fragment">globale Übersicht der Reservierungen</li>
-                            <li class="fragment">Untermenüs durch überlagernde Modals realisiert</li>
-                            <li class="fragment">in Reservierungsmenü eingebettete Planansicht</li>
+                            <li class="fragment">Menüs durch Modals realisiert</li>
+                            <li class="fragment">Reservierungsmenü mit eingebetteter Planansicht</li>
                             <li class="fragment">Anzeige konkurrierender Veranstaltungen</li>
                             <li class="fragment">farbliche Codierung von Konflikthäufigkeiten</li>
                         </ul>
